@@ -669,4 +669,14 @@ section {
   .about .content{
     text-align: center;
   }
+  
+.btn {
+  color: #fff;
+  background: #ffc107;
+  cursor: pointer;
+}
+
+.btn:hover {
+  letter-spacing: 0.2rem;
+}
 }
