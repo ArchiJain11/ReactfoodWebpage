@@ -12,7 +12,6 @@ function Review() {
             {
                 review.map((val,id)=>{
                     return(
-                        <>
                             <div className="box" key={id}>
                                     <img src={quotes} alt="" />                                
                                     <div className="content">
@@ -32,7 +31,6 @@ function Review() {
                                 </div>
     
                             </div>
-                        </>
                     )
 
                 })

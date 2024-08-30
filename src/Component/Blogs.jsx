@@ -12,7 +12,7 @@ function Blogs() {
           {
             blog.map((val, id)=>{
               return(
-                <>
+              
                   <div className="box" key={id}>
                       <div className="image">
                         <img src={val.img} alt="" />
@@ -26,7 +26,7 @@ function Blogs() {
                         <a href="#" className='btn'>read more</a>
                       </div>
                   </div>
-                </>
+                
               )
 
             })

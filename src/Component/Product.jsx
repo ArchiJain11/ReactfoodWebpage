@@ -10,10 +10,10 @@ function Product() {
         </h1>
         <div className="box-container">
             {
-                product.map((val,id)=>{
+                product.map((val,index)=>{
                     return(
-                        <>
-                            <div className="box" key={id}>
+                        
+                            <div className="box" key={index}>
                                 <div className="icons">
                                 <a href='#' className="fa fa-shopping-cart"></a>
                                 <a href='#' className="fa fa-heart"></a>
@@ -36,7 +36,7 @@ function Product() {
                                     </div>
                                 </div>
                             </div>
-                        </>
+                        
                     )
                 })
             }
